@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+specifiers:
+  fp-ts: ^2.13.1
+
+dependencies:
+  fp-ts: 2.13.1
+
+packages:
+
+  /fp-ts/2.13.1:
+    resolution: {integrity: sha512-0eu5ULPS2c/jsa1lGFneEFFEdTbembJv8e4QKXeVJ3lm/5hyve06dlKZrpxmMwJt6rYen7sxmHHK2CLaXvWuWQ==}
+    dev: false
