@@ -20,7 +20,10 @@ import path, { dirname } from "path";
 import { apply, max, reject, split, sum } from "ramda";
 
 export const getFileContents = () =>
-  tryCatch(() => readFile(path.join(__dirname, "input.txt"), "utf-8"), toError);
+  tryCatch(
+    () => readFile(path.join(__dirname, "..", "input.txt"), "utf-8"),
+    toError
+  );
 
 pipe(
   getFileContents(),
